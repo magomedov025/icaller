@@ -1,15 +1,11 @@
-import { View, Text } from "react-native";
+import 'react-native-gesture-handler';
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import MainStack from './navigate'
 
-export default function App() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
-    </View>
-  );
+export default function App(){
+  return(
+    <MainStack />
+  )
 }
+
